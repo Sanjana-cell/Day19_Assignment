@@ -10,7 +10,7 @@ public class EmpWageComputation {
 		if(attendence == 2) 
 			workHours=8;
 		else
-			workHours=0;
+			workHours=4;
 		dailyWage=workHours*WAGE_PER_HOUR;
 		System.out.println("Daily Wage of Employee  "+dailyWage);
 	}
